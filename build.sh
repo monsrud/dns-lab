@@ -1,8 +1,8 @@
 #!/bin/sh
 set -e
 
-CONTAINER_NAME=bind-lab
-IMAGENAME=bind-lab
+CONTAINER_NAME=dns-lab
+IMAGENAME=dns-lab
 CONTAINER_FE=docker  # or CONTAINER_FE=podman
 
 $CONTAINER_FE container stop ${CONTAINER_NAME} > /dev/null 2>&1 || true
