@@ -1,0 +1,17 @@
+$ORIGIN 1.168.192.in-addr.arpa.
+
+$TTL 86400
+@     IN     SOA    localhost.     root.localhost. (
+                    2001062501 ; serial
+                    21600      ; refresh after 6 hours
+                    3600       ; retry after 1 hour
+                    604800     ; expire after 1 week
+                    86400 )    ; minimum TTL of 1 day
+
+@     IN	NS localhost.
+20    IN     PTR    alice.example.lab.
+21    IN     PTR    betty.example.lab.
+22    IN     PTR    charlie.example.lab.
+23    IN     PTR    doug.example.lab.
+24    IN     PTR    ernest.example.lab.
+25    IN     PTR    fanny.example.lab.

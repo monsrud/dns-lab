@@ -1,0 +1,15 @@
+
+
+$ORIGIN example.lab.
+$TTL 86400
+@  IN SOA   localhost. root.localhost. (
+                              2016072701                 ; serial number
+                              3600                       ; refresh period
+                              600                        ; retry period
+                              604800                     ; expire time
+                              1800                     ) ; minimum ttl
+
+@ IN NS localhost.
+vpn                      IN A     216.146.45.240
+webapp                   IN A     216.146.46.10
+webapp                   IN A     216.146.46.11
